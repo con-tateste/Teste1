@@ -5,7 +5,7 @@ import sqlite3
 
 
 
-dados = pd.read_csv("SQLite/tabela_residuos.csv")
+dados = pd.read_csv("tabela_residuos.csv")
 
 st.title("Dashboard")
 st.subheader("Tabela com os dados")
