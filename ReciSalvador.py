@@ -18,8 +18,8 @@ st.write("Confira abaixo o mapa com pontos de coleta")
 link_pro_mapa = """
 <iframe 
     src="https://www.google.com/maps/d/embed?mid=1-bBNeDfTF4JcG0ElG0RTdBmwFRgg9yEY&ehbc=2E312F" 
-    width="1500" 
-    height="2000">
+    width="1080" 
+    height="720">
 </iframe>
 """
 st.components.v1.html(link_pro_mapa, height=480)
