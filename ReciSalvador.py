@@ -22,4 +22,4 @@ link_pro_mapa = """
     height="480">
 </iframe>
 """
-st.components.iframe(link_pro_mapa, height=720)
+st.components.components.v1.html(link_pro_mapa, height=720)
